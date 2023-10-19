@@ -1,0 +1,61 @@
+.fond{
+    background-color: #ead1ea;
+    width: 100vw;
+    padding-top: 15vh;
+
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carre{
+    width: 25vw;
+height: 30vh;
+border: darkmagenta 2px solid;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding : 10px;
+}
+
+p::first-line{
+    color: red;
+    font-size: 1.5em;
+}
+
+span::first-letter{
+    color: red;
+    font-size: 2em;
+}
+
+h6::before {
+    content: url(icone.png);
+}
+h6::after {
+    content: url(icone.png);
+}
+::marker{
+    color: darkmagenta;
+    font-size: 2em;
+}
+::selection{
+    background-color: darkmagenta;
+}
+
+.lien1:active{
+    color: darkmagenta;
+    font-size: 2em;
+}
+input[type="checkbox"]:checked {
+    background-color: #00FF00; /* Couleur de fond verte pour les cases cochées */
+    color: #FFFFFF; /* Texte blanc pour les labels des cases cochées */
+}
+
+/* Styles pour les cases désactivées */
+input[type="checkbox"]:disabled {
+    background-color: darkmagenta; /* Couleur de fond magenta foncé pour les cases désactivées */
+    color: #FFFFFF; /* Texte blanc pour les labels des cases désactivées */
+}
